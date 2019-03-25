@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template</title>
+</head>
+<body>
+<h1>
+hello ! <br >
+name is : {{ name }}
+location is {{ location }}
+</h1>
+
+
+
+</body>
+</html>

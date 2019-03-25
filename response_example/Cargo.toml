@@ -1,0 +1,20 @@
+[package]
+name = "response_example"
+version = "0.1.0"
+authors = ["anonymouse <>_<@>_<.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["handlebars_templates", "tera_templates"]
+
+#[development]
+#template_dir = "dev_templates/"
